@@ -238,7 +238,10 @@
         </section>
         <section>
             <footer class="bg-dark text-white text-center pt-4 pb-4">
-            TeeSpeak - Todos os direitos reservados
+            Todos os direitos reservados - TeeSpeak -
+            <a href="https://www.linkedin.com/in/juliana-antunes-de-lima-585079248/" target="_blank" class="text-white">   Juliana Lima</a>
+            <span class="text-muted mx-2">|</span>
+            <a href="https://github.com/Delimajuh" target="_blank" class="text-white">GitHub da Juh</a>
             </footer>
         </section>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>

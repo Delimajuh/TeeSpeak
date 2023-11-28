@@ -11,12 +11,12 @@ include("conexao.php");
 $inserirbanco = mysqli_query($conexao, "INSERT INTO contato (nome, email, telefone, mensagem) VALUES ('$nome', '$email', '$telefone', '$mensagem');");
 
 //require 'mailer/PHPMailerAutoload.php';
-require 'vendor/autoload.php';
+include 'phpmailer/PHPMailerAutoload.php';
 $mailer = new PHPMailer();
 $mailer->IsSMTP();
 $mailer->SMTPOptions = array('ssl' => array('verify_peer' => false, 'verify_peer_name' => false, 'allow_self_signed' => true));
 $mailer->Port = 587;
-$mailer->SMTPDebug = 1;
+$mailer->SMTPDebug = 0;
 $mailer->Host = 'smtp.gmail.com';
 $mailer->SMTPAuth = true;
 $mailer->Username = 'julianadelimaprass@gmail.com';

@@ -81,11 +81,13 @@
                 </select>
             </div>
             
-                <button type="button" onclick="exibirFrase()">Exibir na Camiseta</button>
-                <form action="processar_compra.php" method="post">
-                        <button type="submit" class="btn btn-success">Comprar</button>
-                </form>
+             
         </form>
+        <button type="button" onclick="exibirFrase()">Exibir na Camiseta</button>
+                <form action="processar_compra.php" method="post">
+                    <input type="hidden" name="id" id="1000">
+                    <button type="submit" class="btn btn-success">Comprar</button>
+                </form>
         </div>
         <div class="col-md-6">
             <section>
